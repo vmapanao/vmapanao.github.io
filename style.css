@@ -1,0 +1,19 @@
+body, html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	font-family: 'Ubuntu', sans-serif;
+	background-image: url(macbookdesk.jpg);
+	background-size: 100%;
+	background-position: cover;
+	background-repeat: no-repeat;
+}
+.center-block {
+	position:fixed;
+	top: 40%;
+	left:50%;
+	transform: translate(-50%, -50%);
+ 	/*display: flex;
+	align-items: center;*/
+}
